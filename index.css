@@ -1,0 +1,111 @@
+.container-fluid {
+    padding: 0;
+}
+
+
+.container-fluid .navbar {
+    background-color: #ffffff;
+    width: 85%;
+    position: absolute;
+    top: 5vh;
+    z-index: 1000;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    left: 8vw;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid .navbar .navbar-brand img {
+    width: 60px;
+    height: 57.41px;
+}
+
+.container-fluid .navbar-expand-lg .navbar-nav .nav-item {
+    margin: 0 1vw;
+}
+
+.container-fluid .navbar-expand-lg .navbar-nav .nav-link  {
+    color: #000000;
+}
+
+.container-fluid .navbar-expand-lg .navbar-nav .form-inline .search {
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    height: 40px;
+}
+
+.container-fluid .navbar-expand-lg .navbar-nav .form-inline .btn-search {
+    background:none;
+    border: none;
+    cursor: pointer;
+    margin: 0 1vw;
+}
+
+.carousel-background-1 {
+    background: url("asset/cover.jpg") no-repeat;
+    height: 85vh;
+    background-size: 100% 100%;
+}
+
+.carousel-inner {
+    text-transform: capitalize;
+}
+
+.wrapper {
+    background: linear-gradient(247.3deg, rgba(5, 115, 171, 0.6) 0%, rgba(16, 77, 236, 0.6) 99.74%);
+    min-height: 85vh;
+    max-height: 85vh;
+    padding: 25vh 20vw;
+    color: #ffffff;
+}
+
+.wrapper h4 {
+    font-family: "Open Sans", sans-serif;
+}
+.wrapper h1 {
+    width: 35vw;
+    line-height: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.container-fluid .feature {
+    padding: 10vh 10vw;
+}
+
+.container-fluid .feature .row .feature-item {
+    padding: 0 2vw;
+}
+
+.container-fluid .feature .row .feature-item .feature-content .feature-title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #0573AB;
+    margin: 4vh 0;
+    line-height: 30px;
+}
+
+.container-fluid .feature .row .feature-item .feature-content .feature-description {
+    line-height: 25px;
+}
+
+.container-fluid .facilities {
+    padding: 0 10vw;
+}
+
+.container-fluid .facilities .row .facilities-text .title {
+    font-family: "Poppins", sans-serif;
+    color: #0573AB;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.container-fluid .facilities .row .facilities-item .facilities-content .facilities-img {
+    width: 100%;
+    height: 300px;
+}

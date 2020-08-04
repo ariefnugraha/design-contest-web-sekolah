@@ -1,5 +1,6 @@
 .container-fluid {
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -12,7 +13,7 @@
     border-radius: 20px;
     padding: 1vh 5vw;
     left: 8vw;
-    font-family: "Open Sans", sans-serif;
+    
 }
 
 .container-fluid .navbar .navbar-brand img {
@@ -62,9 +63,6 @@
     color: #ffffff;
 }
 
-.wrapper h4 {
-    font-family: "Open Sans", sans-serif;
-}
 .wrapper h1 {
     width: 35vw;
     line-height: 55px;
@@ -95,7 +93,7 @@
 }
 
 .container-fluid .facilities {
-    padding: 0 10vw;
+    padding: 0 10vw 10vh 10vw;
 }
 
 .container-fluid .facilities .row .facilities-text .title {
@@ -105,7 +103,105 @@
     font-weight: bold;
 }
 
+.container-fluid .facilities .row .facilities-item .carousel .carousel-inner {
+    padding: 0 8vw;
+}
+
+.container-fluid .facilities .row .facilities-item .carousel .carousel-indicators {
+    position: relative;
+    top: 65vh;
+}
+
+.container-fluid .facilities .row .facilities-item .carousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px #0573AB;
+}
+
+.container-fluid .facilities .row .facilities-item .carousel .carousel-indicators .active {
+    background-color: #0573AB;
+}
+
+.container-fluid .facilities .row .facilities-item .facilities-content {
+    border: solid 2px #0573AB;
+    border-radius: 10px;
+}
+
 .container-fluid .facilities .row .facilities-item .facilities-content .facilities-img {
     width: 100%;
-    height: 300px;
+    height: 200px;
+}
+
+.container-fluid .facilities .row .facilities-item .facilities-content h5 {
+    font-weight: 500;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #0573AB;
+    margin: 3vh 0;
+}
+
+.container-fluid .facilities .row .facilities-item .facilities-content p {
+    padding: 0 2vw;
+}
+
+.container-fluid .news {
+    padding: 10vh 10vw;
+}
+
+.container-fluid .news h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #0573AB;
+}
+
+.container-fluid .news .subtitle {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container-fluid .news .row {
+    margin: 8vh 0;
+}
+
+.container-fluid .news .row .news-item .news-content img {
+    width: 100%;
+}
+
+.container-fluid .news .row .news-item .news-content h4 {
+    color: #0573AB;
+    font-weight: 600;
+    margin: 5vh 0;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    min-height: 60px;
+}
+
+.container-fluid .news .row .news-item .news-content p {
+    line-height: 25px;
+}
+
+.container-fluid .news .row .news-item .news-content .date, .container-fluid .news .row .news-item .news-content .read-time {
+    color:  #515151;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.container-fluid .news .row .news-item .news-content .read-time  {
+    float: right;
+}
+
+.container-fluid .gallery {
+background: url("asset/gallery.svg") no-repeat;
+    height: 100vh;
+    padding: 10vh 10vw;
+}
+
+.container-fluid .gallery h4 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
 }

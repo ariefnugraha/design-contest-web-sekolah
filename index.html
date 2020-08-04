@@ -9,10 +9,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="asset/logo.jpg" class="img-fluid" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Visi Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hubungi Kami</a>
+                    </li>
+                    <form class="form-inline">
+                        <input type="text" class="search" placeholder="Cari" />
+                        <button type="submit" class="btn-search">
+                            <span class="iconify" data-inline="false" data-icon="ant-design:search-outlined"
+                                style="color: #0573ab; font-size: 30px;"></span>
+                        </button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
         <section id="carousel-indicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
@@ -21,9 +57,20 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active carousel-background-1">
-                    
+                    <article class="wrapper">
+                        <h4>Al-Azhar sragen</h4>
+                        <h1>menciptakan generasi cerdas, beriman, dan taqwa</h1>
+                    </article>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+                <span class="iconify" data-inline="false" data-icon="bi:chevron-left"
+                    style="color: #ffffff; font-size: 70px;"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+                <span class="iconify" data-inline="false" data-icon="bi:chevron-right"
+                    style="color: #ffffff; ; font-size: 70px;"></span>
+            </a>
         </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

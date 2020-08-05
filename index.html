@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Contest - Web Sekolah</title>
@@ -20,7 +19,7 @@
                 <img src="asset/logo.jpg" class="img-fluid" alt="Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-collapse">
-                <span class="navbar-toggler-icon"></span>
+                <span class="iconify" data-inline="false" data-icon="codicon:three-bars" style="font-size: 24px; color: black;"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="navbar-nav mr-auto">
@@ -229,18 +228,22 @@
         <section class="gallery">
             <h4>galeri</h4>
             <div class="row gallery-content">
-                <div class="col gallery-item">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 gallery-item">
                     <img class="img-fluid" src="asset/news1.jpg" alt="Image">
                 </div>
-                <div class="col gallery-item">
-                    <img class="img-fluid" src="asset/news1.jpg" alt="Image">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 gallery-item">
+                    <img class="img-fluid" src="asset/news2.jpg" alt="Image">
                 </div>
-                <div class="col gallery-item">
-                    <img class="img-fluid" src="asset/news1.jpg" alt="Image">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 gallery-item">
+                    <img class="img-fluid" src="asset/news3.jpg" alt="Image">
                 </div>
-                <div class="col gallery-item">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 gallery-item">
                     <img class="img-fluid" src="asset/news1.jpg" alt="Image">
                     <div class="wrapper">
+                        <div class="icon">
+                            <span class="iconify" data-inline="false" data-icon="bi:chevron-right"
+                                style="color: #0573ab; ; font-size: 30px;"></span>
+                        </div>
                         <h4>temukan foto menarik lainnya disini</h4>
                     </div>
                 </div>
@@ -253,8 +256,102 @@
         </section>
 
         <section class="contact">
-            <h1>adaldaldkl</h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 contact-item">
+                    <h4>ada pertanyaan seputar sekolah al-azhar ?</h4>
+                    <p class="subtitle">tanyakan saja melalui form di bawah ini</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <form method="post">
+                                <div class="form-group">
+                                    <label>email</label>
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Judul</label>
+                                    <input type="text" class="form-control" placeholder="Judul" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>pesan</label>
+                                    <textarea class="form-control" placeholder="Pesan" required></textarea>
+                                </div>
+                                <button type="submit" class="btn-contact">Kirim Pesan</button>
+                            </form>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <p>Anda Juga Bisa Mengirim Pertanyaan Kepada Kami Melalui Kontak Di Bawah Ini</p>
+                            <p class="social-media-info">
+                                <span class="iconify" data-inline="false" data-icon="ant-design:phone-filled"
+                                    style="color: #0099ff; font-size: 25px;"></span> 021 1234 5678
+                            </p>
+                            <p class="social-media-info">
+                                <span class="iconify" data-inline="false" data-icon="dashicons:whatsapp"
+                                    style="color: #0099ff; font-size: 25px;"></span> 021 1234 5678
+                            </p>
+                            <p class="social-media-info">
+                                <span class="iconify" data-inline="false" data-icon="ant-design:facebook-filled"
+                                    style="color: #0099ff; font-size: 25px;"></span> alazharsragen
+                            </p>
+                            <p class="social-media-info">
+                                <span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled"
+                                    style="color: #0099ff; font-size: 25px;"></span> alazharsragen
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 contact-maps">
+                    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=sragen+(Sekolah%20Al-Azhar%20Sragen)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                    <div class="location-detail">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 image">
+                                <img src="asset/cover.jpg" alt="location-image">
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 location-name">
+                                <p><b>Sekolah Al-Azhar</b></p>
+                                <p>Jl. ABC</p>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 location-guide">
+                                <div class="get-guide">
+                                    <p>
+                                        <span class="iconify" data-inline="false" data-icon="jam:gps-f"
+                                            style="color: #ffffff; font-size: 15px;"></span> Petunjuk
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <h5>sekolah al-azhar sragen</h5>
+                    <a href="#">tentang kami</a>
+                    <a href="#">visi misi</a>
+                    <a href="#">karier</a>
+                </div>
+                <div class="col">
+                    <h5>sitelink</h5>
+                    <a href="#">home</a>
+                    <a href="#">galeri</a>
+                    <a href="#">karier</a>
+                </div>
+                <div class="col">
+                    <h5>sosial media</h5>
+                    <a href="#">
+                        <span class="iconify" data-inline="false" data-icon="ant-design:facebook-filled"
+                            style="color: #ffffff; font-size: 25px;"></span> alazharsragen
+                    </a>
+                </div>
+            </div>
+            <p class="credit">Made By <a class="credit-link" href="www.github.com/ariefnugraha">Muhammad Arief Nugraha</a></p>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

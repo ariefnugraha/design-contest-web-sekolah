@@ -53,7 +53,7 @@
   text-transform: capitalize;
 }
 
-.wrapper {
+.carousel .carousel-inner .carousel-item .wrapper {
   background: linear-gradient(
     247.3deg,
     rgba(5, 115, 171, 0.6) 0%,
@@ -65,7 +65,7 @@
   color: #ffffff;
 }
 
-.wrapper h1 {
+.carousel .carousel-inner .carousel-item .wrapper h1 {
   width: 35vw;
   line-height: 55px;
   font-family: "Poppins", sans-serif;
@@ -227,6 +227,7 @@
   padding: 10vh 0;
   background-color: #0573ab;
   color: #ffffff;
+  height: 750px;
 }
 
 .container-fluid .gallery h4 {
@@ -247,16 +248,163 @@
 
 .container-fluid .gallery .gallery-content .gallery-item .wrapper {
   background: linear-gradient(
-    257.78deg,
-    rgba(5, 115, 171, 0.7) 0%,
-    rgba(16, 77, 236, 0.7) 99.74%
+    247.3deg,
+    rgba(5, 115, 171, 0.6) 0%,
+    rgba(16, 77, 236, 0.6) 99.74%
   );
-  position: absolute;
-  top: 0;
-  width: 10px;
+  padding: 5vh 2vw;
+  position: relative;
+  top: -36vh;
+  height: 250px;
+  cursor: pointer;
+}
+
+.container-fluid .gallery .gallery-content .gallery-item .wrapper .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 0 auto 3vh auto;
+  padding: 1vh 1vw;
+}
+
+.container-fluid
+  .gallery
+  .gallery-content
+  .gallery-item
+  .wrapper
+  .icon
+  .iconify {
+  margin-top: 0.5vh;
+}
+
+.container-fluid .gallery .gallery-content .gallery-item .wrapper h4 {
+  line-height: 150%;
 }
 
 .container-fluid .gallery .wave {
   position: relative;
-  top: 100px;
+  top: -200px;
+}
+
+.container-fluid .contact {
+    margin: 10vh 0 0 0;
+}
+
+.container-fluid .contact .row {
+ margin: 0 !important;
+}
+
+.container-fluid .contact .row .contact-item {
+    padding: 0 5vw;
+    text-transform: capitalize;
+}
+
+.container-fluid .contact .row .contact-item h4 {
+    color: #0573ab;
+    font-weight: 600;
+    text-transform: capitalize;    
+    font-family: "Poppins", sans-serif;
+}   
+
+.container-fluid .contact .row .contact-item .row {
+    margin: 5vh 0 !important;
+}
+
+.container-fluid .contact .row .contact-item .row  form .form-control {
+    border: none;
+    background-color: #e8e8e8;
+    height: 50px;
+    padding: 0 2vw;
+}
+
+.container-fluid .contact .row .contact-item .row  form textarea {
+    padding-top: 2vw !important;
+    height: 150px !important;
+}
+
+.container-fluid .contact .row .contact-item .row .btn-contact {
+  width: 100%;
+  background-color: #0573ab;
+  border: none;
+  color: #ffffff;
+  padding: 2vh 0;
+  cursor: pointer
+}
+
+.container-fluid .contact .row .contact-item .row .social-media-info {
+  text-transform: none;
+}
+
+.container-fluid .contact .row .contact-item .row .social-media-info .iconify {
+   margin-top: 0vh;;
+}
+
+.container-fluid .contact .row  .contact-maps {
+  padding: 0;
+}
+
+.container-fluid .contact .row  .contact-maps .location-detail {
+  background-color: #ffffff;
+  width: 80%;
+  position: relative;
+  top: -400px;
+  left: 50px;
+}
+
+.container-fluid .contact .row  .contact-maps .location-detail .row .image {
+  padding: 0;
+}
+
+.container-fluid .contact .row  .contact-maps .location-detail .row .image img {
+  width: 100%;
+  height: 110px;
+}
+
+.container-fluid .contact .row  .contact-maps .location-detail .row .location-name {
+  padding: 2vh 2vw;
+}
+
+.container-fluid .contact .row  .contact-maps .location-detail .row .location-guide .get-guide {
+  background-color: #0573ab;
+  margin: 5vh 0;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5vh 0;
+}
+
+.container-fluid .contact .row  .contact-maps .location-detail .row .location-guide .get-guide p {
+  margin: 1vh 0;
+}
+
+.container-fluid footer {
+  background-color: #0573ab; 
+  padding: 10vh 10vw;
+  color: #ffffff; 
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid footer h5 {
+  margin-bottom: 3vh;
+}
+.container-fluid footer a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 1vh 0;
+}
+
+.container-fluid footer a:hover {
+  text-decoration: underline;
+} 
+
+.container-fluid footer .credit {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.container-fluid footer .credit-link {
+  display: inline !important;
 }

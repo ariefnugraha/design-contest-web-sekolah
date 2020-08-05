@@ -1,207 +1,262 @@
 .container-fluid {
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-
 .container-fluid .navbar {
-    background-color: #ffffff;
-    width: 85%;
-    position: absolute;
-    top: 5vh;
-    z-index: 1000;
-    border-radius: 20px;
-    padding: 1vh 5vw;
-    left: 8vw;
-    
+  background-color: #ffffff;
+  width: 85%;
+  position: absolute;
+  top: 5vh;
+  z-index: 1000;
+  border-radius: 20px;
+  padding: 1vh 5vw;
+  left: 8vw;
 }
 
 .container-fluid .navbar .navbar-brand img {
-    width: 60px;
-    height: 57.41px;
+  width: 60px;
+  height: 57.41px;
 }
 
 .container-fluid .navbar-expand-lg .navbar-nav .nav-item {
-    margin: 0 1vw;
+  margin: 0 1vw;
 }
 
-.container-fluid .navbar-expand-lg .navbar-nav .nav-link  {
-    color: #000000;
+.container-fluid .navbar-expand-lg .navbar-nav .nav-link {
+  color: #000000;
 }
 
 .container-fluid .navbar-expand-lg .navbar-nav .form-inline .search {
-    background-color: #e8e8e8;
-    border: none;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 1vh 2vw;
-    height: 40px;
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1vh 2vw;
+  height: 40px;
 }
 
 .container-fluid .navbar-expand-lg .navbar-nav .form-inline .btn-search {
-    background:none;
-    border: none;
-    cursor: pointer;
-    margin: 0 1vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 1vw;
 }
 
 .carousel-background-1 {
-    background: url("asset/cover.jpg") no-repeat;
-    height: 85vh;
-    background-size: 100% 100%;
+  background: url("asset/cover.jpg") no-repeat;
+  height: 85vh;
+  background-size: 100% 100%;
 }
 
 .carousel-inner {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .wrapper {
-    background: linear-gradient(247.3deg, rgba(5, 115, 171, 0.6) 0%, rgba(16, 77, 236, 0.6) 99.74%);
-    min-height: 85vh;
-    max-height: 85vh;
-    padding: 25vh 20vw;
-    color: #ffffff;
+  background: linear-gradient(
+    247.3deg,
+    rgba(5, 115, 171, 0.6) 0%,
+    rgba(16, 77, 236, 0.6) 99.74%
+  );
+  min-height: 85vh;
+  max-height: 85vh;
+  padding: 25vh 20vw;
+  color: #ffffff;
 }
 
 .wrapper h1 {
-    width: 35vw;
-    line-height: 55px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  width: 35vw;
+  line-height: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
-
 .container-fluid .feature {
-    padding: 10vh 10vw;
+  padding: 10vh 10vw;
 }
 
 .container-fluid .feature .row .feature-item {
-    padding: 0 2vw;
+  padding: 0 2vw;
 }
 
 .container-fluid .feature .row .feature-item .feature-content .feature-title {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-weight: 600;
-    color: #0573AB;
-    margin: 4vh 0;
-    line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  color: #0573ab;
+  margin: 4vh 0;
+  line-height: 30px;
 }
 
-.container-fluid .feature .row .feature-item .feature-content .feature-description {
-    line-height: 25px;
+.container-fluid
+  .feature
+  .row
+  .feature-item
+  .feature-content
+  .feature-description {
+  line-height: 25px;
 }
 
 .container-fluid .facilities {
-    padding: 0 10vw 10vh 10vw;
+  padding: 0 10vw 10vh 10vw;
 }
 
 .container-fluid .facilities .row .facilities-text .title {
-    font-family: "Poppins", sans-serif;
-    color: #0573AB;
-    text-transform: capitalize;
-    font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #0573ab;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .container-fluid .facilities .row .facilities-item .carousel .carousel-inner {
-    padding: 0 8vw;
+  padding: 0 8vw;
 }
 
-.container-fluid .facilities .row .facilities-item .carousel .carousel-indicators {
-    position: relative;
-    top: 65vh;
+.container-fluid
+  .facilities
+  .row
+  .facilities-item
+  .carousel
+  .carousel-indicators {
+  position: relative;
+  top: 65vh;
 }
 
-.container-fluid .facilities .row .facilities-item .carousel .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: solid 2px #0573AB;
+.container-fluid
+  .facilities
+  .row
+  .facilities-item
+  .carousel
+  .carousel-indicators
+  li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid 2px #0573ab;
 }
 
-.container-fluid .facilities .row .facilities-item .carousel .carousel-indicators .active {
-    background-color: #0573AB;
+.container-fluid
+  .facilities
+  .row
+  .facilities-item
+  .carousel
+  .carousel-indicators
+  .active {
+  background-color: #0573ab;
 }
 
 .container-fluid .facilities .row .facilities-item .facilities-content {
-    border: solid 2px #0573AB;
-    border-radius: 10px;
+  border: solid 2px #0573ab;
+  border-radius: 10px;
 }
 
-.container-fluid .facilities .row .facilities-item .facilities-content .facilities-img {
-    width: 100%;
-    height: 200px;
+.container-fluid
+  .facilities
+  .row
+  .facilities-item
+  .facilities-content
+  .facilities-img {
+  width: 100%;
+  height: 200px;
 }
 
 .container-fluid .facilities .row .facilities-item .facilities-content h5 {
-    font-weight: 500;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    color: #0573AB;
-    margin: 3vh 0;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #0573ab;
+  margin: 3vh 0;
 }
 
 .container-fluid .facilities .row .facilities-item .facilities-content p {
-    padding: 0 2vw;
+  padding: 0 2vw;
 }
 
 .container-fluid .news {
-    padding: 10vh 10vw;
+  padding: 10vh 10vw;
 }
 
 .container-fluid .news h4 {
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
-    font-weight: 600;
-    color: #0573AB;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #0573ab;
 }
 
 .container-fluid .news .subtitle {
-    text-align: center;
-    text-transform: capitalize;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .container-fluid .news .row {
-    margin: 8vh 0;
+  margin: 8vh 0;
 }
 
 .container-fluid .news .row .news-item .news-content img {
-    width: 100%;
+  width: 100%;
 }
 
 .container-fluid .news .row .news-item .news-content h4 {
-    color: #0573AB;
-    font-weight: 600;
-    margin: 5vh 0;
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
-    min-height: 60px;
+  color: #0573ab;
+  font-weight: 600;
+  margin: 5vh 0;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  min-height: 60px;
 }
 
 .container-fluid .news .row .news-item .news-content p {
-    line-height: 25px;
+  line-height: 25px;
 }
 
-.container-fluid .news .row .news-item .news-content .date, .container-fluid .news .row .news-item .news-content .read-time {
-    color:  #515151;
-    font-size: 14px;
-    text-transform: capitalize;
+.container-fluid .news .row .news-item .news-content .date,
+.container-fluid .news .row .news-item .news-content .read-time {
+  color: #515151;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
-.container-fluid .news .row .news-item .news-content .read-time  {
-    float: right;
+.container-fluid .news .row .news-item .news-content .read-time {
+  float: right;
 }
 
 .container-fluid .gallery {
-background: url("asset/gallery.svg") no-repeat;
-    height: 100vh;
-    padding: 10vh 10vw;
+  padding: 10vh 0;
+  background-color: #0573ab;
+  color: #ffffff;
 }
 
 .container-fluid .gallery h4 {
-    text-align: center;
-    color: #ffffff;
-    text-transform: capitalize;
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+.container-fluid .gallery .gallery-content {
+  margin: 10vh 10vw 0 10vh;
+}
+
+.container-fluid .gallery .gallery-content .gallery-item img {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+
+.container-fluid .gallery .gallery-content .gallery-item .wrapper {
+  background: linear-gradient(
+    257.78deg,
+    rgba(5, 115, 171, 0.7) 0%,
+    rgba(16, 77, 236, 0.7) 99.74%
+  );
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.container-fluid .gallery .wave {
+  position: relative;
+  top: 100px;
 }

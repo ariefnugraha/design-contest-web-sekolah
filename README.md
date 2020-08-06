@@ -1,5 +1,6 @@
 <h1>Design Contest : Web Sekolah</h1>
 <img src="asset/tes.png" style="margin-bottom: 1vh;">
+<p><b>Demo :</b> <a href="https://ariefnugraha.github.io/design-contest-web-sekolah/">https://ariefnugraha.github.io/design-contest-web-sekolah/</a></p>
 <p>Ini adalah website hasil implementasi dari desain user interface yang saya ikuti di website sribu.com. Implementasi website dari desain tidak mirip 100%</p>
 <p>Website ini berisi tentang penjelasan mengenai sekolah di Sragen Jawa Timur. Dalam website ini, terdapat beberapa bagian. Bagian pertama adalah slide show yang berisi tagline sekolah. Bagian kedua adalah bagian yang berisi informasi mengapa harus mendaftar di sekolah ini. Bagian ketiga adalah mengenai fasilitas yang ada di sekolah yang disajikan dalam bentuk card dalam slide show. Bagian keempat berisi berita dan informasi sekolah</p>
 <h4>Spesifikasi</h4>

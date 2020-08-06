@@ -1,3 +1,2 @@
-Design Contest Web Sekolah
-
+<h1>adkaldk</h1>
 Ini adalah hasil UI Desain dalam salah satu website kontes desain. UI Desain yang telah dibuat, akan diimplementasikan dalam bentuk website sesungguhnya

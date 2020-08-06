@@ -1,3 +1,16 @@
+<!--
+    Website Landing Page Sekolah
+    
+    Creator : Muhammad Arief Nugraha
+    Link Repo : https://github.com/ariefnugraha/design-contest-web-sekolah
+
+    Sosial Media :
+    Github : https://github.com/ariefnugraha
+    Instagram : https://www.instagram.com/dvkentury
+    Email : dvkentury@gmail.com
+    Dribble : https://www.dribbble.com/arief_nugraha
+
+-->
 <!DOCTYPE html>
 <html lang="id">
 
@@ -14,13 +27,17 @@
 
 <body>
     <div class="container-fluid">
+        <!-- BAGIAN NAVBAR -->
         <nav class="navbar navbar-expand-lg">
+            <!-- LOGO UNTUK NAVBAR -->
             <a class="navbar-brand" href="index.html">
                 <img src="asset/logo.jpg" class="img-fluid" alt="Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="iconify" data-inline="false" data-icon="codicon:three-bars" style="font-size: 24px; color: black;"></span>
             </button>
+
+            <!-- MENU NAVBAR -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -38,6 +55,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Hubungi Kami</a>
                     </li>
+
+                    <!-- FORM PENCARIAN DI NAVBAR -->
                     <form class="form-inline">
                         <input type="text" class="search" placeholder="Cari" />
                         <button type="submit" class="btn-search">
@@ -48,11 +67,16 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- BAGIAN CAROUSEL UTAMA-->
         <section id="carousel-indicators" class="carousel slide" data-ride="carousel">
+            <!-- INDICATOR SLIDER-->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-indicators" data-slide-to="1"></li>
             </ol>
+
+            <!-- KONTEN CAROUSEL-->
             <div class="carousel-inner">
                 <div class="carousel-item active carousel-background-1">
                     <article class="wrapper">
@@ -67,6 +91,8 @@
                     </article>
                 </div>
             </div>
+
+            <!-- KONTROLLER CAROUSEL UNTUK BISA NEXT ATAU PREVIOUS-->
             <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
                 <span class="iconify" data-inline="false" data-icon="bi:chevron-left"
                     style="color: #ffffff; font-size: 70px;"></span>
@@ -77,8 +103,10 @@
             </a>
         </section>
 
+        <!-- BAGIAN INFORMASI SEKOLAH -->
         <section class="feature">
             <div class="row">
+                <!-- ITEM INFORMASI SEKOLAH -->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 feature-item">
                     <article class="feature-content">
                         <span class="iconify" data-inline="false" data-icon="bx:bx-happy-alt"
@@ -110,6 +138,7 @@
             </div>
         </section>
 
+        <!-- BAGIAN PENJELASAN FASILITAS -->
         <section class="facilities">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 facilities-text">
@@ -117,6 +146,8 @@
                     <p class="subtitle">Fasilitas yang mendukung dalam proses mencetak insan yang cerdas, beriman, dan
                         bertaqwa</p>
                 </div>
+
+                <!-- BAGIAN SLIDE SHOW FASILITAS-->
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 facilities-item">
                     <div id="carousel-card" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -183,11 +214,14 @@
             </div>
         </section>
 
+        <!-- BAGIAN BERITA -->
         <section class="news">
             <h4>berita dan kegiatan</h4>
             <p class="subtitle">
                 lihat informasi dan kegiatan seputar Al-Azhar Sragen
             </p>
+
+            <!-- KONTEN BERITA -->
             <div class="row">
                 <div class="col news-item">
                     <article class="news-content">
@@ -225,6 +259,7 @@
             </div>
         </section>
 
+        <!-- BAGIAN GALERI -->
         <section class="gallery">
             <h4>galeri</h4>
             <div class="row gallery-content">
@@ -255,12 +290,14 @@
             </svg>
         </section>
 
+        <!-- BAGIAN KONTAK -->
         <section class="contact">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 contact-item">
                     <h4>ada pertanyaan seputar sekolah al-azhar ?</h4>
                     <p class="subtitle">tanyakan saja melalui form di bawah ini</p>
                     <div class="row">
+                        <!-- FORM KONTAK -->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <form method="post">
                                 <div class="form-group">
@@ -278,6 +315,8 @@
                                 <button type="submit" class="btn-contact">Kirim Pesan</button>
                             </form>
                         </div>
+
+                        <!-- INFORMASI SOSIAL MEDIA SEKOLAH-->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <p>Anda Juga Bisa Mengirim Pertanyaan Kepada Kami Melalui Kontak Di Bawah Ini</p>
                             <p class="social-media-info">
@@ -300,6 +339,8 @@
                     </div>
 
                 </div>
+
+                <!-- PETA SEKOLAH -->
                 <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 contact-maps">
                     <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no"
                             marginheight="0" marginwidth="0"
@@ -328,6 +369,7 @@
             </div>
         </section>
 
+        <!-- FOOTER -->
         <footer>
             <div class="row">
                 <div class="col">
